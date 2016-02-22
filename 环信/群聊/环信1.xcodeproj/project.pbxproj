@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CC9495671C79B939009FBBB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9495661C79B939009FBBB9 /* main.m */; };
-		CC9495701C79B9CA009FBBB9 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CC94956F1C79B9CA009FBBB9 /* GCDAsyncSocket.m */; };
 		CC9495731C79B9FD009FBBB9 /* QYServiceListener.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9495721C79B9FD009FBBB9 /* QYServiceListener.m */; };
+		CCC296441C7AA989002E621E /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC296431C7AA989002E621E /* GCDAsyncSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,10 +27,10 @@
 /* Begin PBXFileReference section */
 		CC9495631C79B939009FBBB9 /* 环信1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "环信1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9495661C79B939009FBBB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CC94956E1C79B9CA009FBBB9 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = ../../../socket/CocoaAsyncSocket/Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
-		CC94956F1C79B9CA009FBBB9 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = ../../../socket/CocoaAsyncSocket/Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
 		CC9495711C79B9FD009FBBB9 /* QYServiceListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYServiceListener.h; sourceTree = "<group>"; };
 		CC9495721C79B9FD009FBBB9 /* QYServiceListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYServiceListener.m; sourceTree = "<group>"; };
+		CCC296421C7AA989002E621E /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		CCC296431C7AA989002E621E /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +74,8 @@
 		CC94956D1C79B999009FBBB9 /* TCP */ = {
 			isa = PBXGroup;
 			children = (
-				CC94956E1C79B9CA009FBBB9 /* GCDAsyncSocket.h */,
-				CC94956F1C79B9CA009FBBB9 /* GCDAsyncSocket.m */,
+				CCC296421C7AA989002E621E /* GCDAsyncSocket.h */,
+				CCC296431C7AA989002E621E /* GCDAsyncSocket.m */,
 			);
 			name = TCP;
 			sourceTree = "<group>";
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC9495701C79B9CA009FBBB9 /* GCDAsyncSocket.m in Sources */,
+				CCC296441C7AA989002E621E /* GCDAsyncSocket.m in Sources */,
 				CC9495671C79B939009FBBB9 /* main.m in Sources */,
 				CC9495731C79B9FD009FBBB9 /* QYServiceListener.m in Sources */,
 			);
@@ -257,6 +257,7 @@
 				CC94956C1C79B939009FBBB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

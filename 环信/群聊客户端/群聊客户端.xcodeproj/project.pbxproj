@@ -15,7 +15,7 @@
 		CC9495901C79DDC0009FBBB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC94958E1C79DDC0009FBBB9 /* LaunchScreen.storyboard */; };
 		CC94959B1C79DDC0009FBBB9 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC94959A1C79DDC0009FBBB9 /* _____Tests.m */; };
 		CC9495A61C79DDC0009FBBB9 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9495A51C79DDC0009FBBB9 /* _____UITests.m */; };
-		CC9495B51C79DDFC009FBBB9 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9495B41C79DDFC009FBBB9 /* GCDAsyncSocket.m */; };
+		CCC296411C7AA947002E621E /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC296401C7AA947002E621E /* GCDAsyncSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		CC9495A11C79DDC0009FBBB9 /* 群聊客户端UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "群聊客户端UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9495A51C79DDC0009FBBB9 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		CC9495A71C79DDC0009FBBB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC9495B31C79DDFC009FBBB9 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = ../../../socket/CocoaAsyncSocket/Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
-		CC9495B41C79DDFC009FBBB9 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = ../../../socket/CocoaAsyncSocket/Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		CCC2963F1C7AA947002E621E /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		CCC296401C7AA947002E621E /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,8 @@
 		CC94957F1C79DDC0009FBBB9 /* 群聊客户端 */ = {
 			isa = PBXGroup;
 			children = (
-				CC9495B31C79DDFC009FBBB9 /* GCDAsyncSocket.h */,
-				CC9495B41C79DDFC009FBBB9 /* GCDAsyncSocket.m */,
+				CCC2963F1C7AA947002E621E /* GCDAsyncSocket.h */,
+				CCC296401C7AA947002E621E /* GCDAsyncSocket.m */,
 				CC9495831C79DDC0009FBBB9 /* AppDelegate.h */,
 				CC9495841C79DDC0009FBBB9 /* AppDelegate.m */,
 				CC9495861C79DDC0009FBBB9 /* ViewController.h */,
@@ -275,7 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC9495B51C79DDFC009FBBB9 /* GCDAsyncSocket.m in Sources */,
+				CCC296411C7AA947002E621E /* GCDAsyncSocket.m in Sources */,
 				CC9495881C79DDC0009FBBB9 /* ViewController.m in Sources */,
 				CC9495851C79DDC0009FBBB9 /* AppDelegate.m in Sources */,
 				CC9495821C79DDC0009FBBB9 /* main.m in Sources */,
@@ -502,6 +502,7 @@
 				CC9495AC1C79DDC0009FBBB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC9495AD1C79DDC0009FBBB9 /* Build configuration list for PBXNativeTarget "群聊客户端Tests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +511,7 @@
 				CC9495AF1C79DDC0009FBBB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC9495B01C79DDC0009FBBB9 /* Build configuration list for PBXNativeTarget "群聊客户端UITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +520,7 @@
 				CC9495B21C79DDC0009FBBB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
